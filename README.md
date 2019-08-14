@@ -10,3 +10,10 @@ To Appear in Neural Computation, 2019.
 You should run the following command to add the relevant paths before
 running your own scripts:  
 >> run load_paths.m
+
+
+See
+"./examples/train_example_from_tensor_filelist.m"  for a demo script that
+trains a normalization model.
+"./examples/normalize_example_tensor_filelist.m"  for a demo script that
+trains a normalization model.
