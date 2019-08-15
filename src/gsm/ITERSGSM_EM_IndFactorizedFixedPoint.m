@@ -1,6 +1,6 @@
 function [COVcs,INVCOVcs,COVc,INVCOVc,COVs,INVCOVs,Pcs,lklhd] = ITERSGSM_EM_IndFactorizedFixedPoint(Kc, Ks, indc, inds, data, theeps, numiter, collapse, fixediter)
 %ITERGSM_EM_INDFACTORIZEDFIXEDPOINT - learn parameters of flexible normalization
-%This function adjust the parameters of a two-component mixture of Gaussian
+%This function adjusts the parameters of a two-component mixture of Gaussian
 %Scale Mixtures to model nonuniform normalization operation.
 %Learning is based on the Expectation-Maximization algorithm, Where at each
 %maximization step a series of fixed point updates that increase the likelihood
