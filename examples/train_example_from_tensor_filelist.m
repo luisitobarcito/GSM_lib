@@ -9,7 +9,7 @@ data_folder = './'
 model_file = './example_trained_normalization_model.mat'
 % number of samples per image 
 samples_per_map = 10
-% number of train maps to be considered. "samples_per_map" are extratcted per map
+% number of train maps to be considered. "samples_per_map" are extracted per map
 n_train_maps = 50000
 % size of a batch for running the normalization function
 batch_size = 2
