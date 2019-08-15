@@ -1,6 +1,6 @@
 function [COVcs,INVCOVcs, f_lklhd] =  ITERSGSM_CanonicalFixedPoint(Kc, Ks, data, theeps, numiter)
 %ITERGSM_EM_CANONICALFIXEDPOINT - learn parameters of single GSM normalization
-%This function adjust the parameters of a Gaussian Scale Mixtures to model
+%This function adjusts the parameters of a Gaussian Scale Mixtures to model
 %spatially uniform normalization operation.
 %Learning is based on the Expectation-Maximization algorithm, Where at each
 %maximization step a series of fixed point updates that increase the likelihood
