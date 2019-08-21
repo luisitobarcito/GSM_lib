@@ -10,9 +10,11 @@ The model differs from the flexible normalization introduced in:
 R. Coen-Cagli, P. Dayan, O. Schwartz. Statistical models of linear and
 nonlinear contextual interactions in early visual processing. NIPS, 2009.
 
-In the model introduced here the surround independent components have
-independent mixers which avoids the need for any symmetry assumption
-in the parameters.
+The model introduced here is designed to work with an arbitrary filter set, 
+such as a learned layer of a deep convolutional neural network. In technical 
+terms, in this model, the surround independent components have independent
+mixers, which avoids the need for any symmetry assumption in the
+parameters.
 
 To use the code in this library, which is mainly contained in the "src"
 directory, run the following command to add the relevant paths before
