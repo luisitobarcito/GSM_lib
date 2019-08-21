@@ -41,7 +41,7 @@ For a demo script that trains a normalization model run:
 "./examples/train_example_from_tensor_filelist.m"  
 
 
-For a demo script thattrains a normalization model,
+For a demo script that takes a trained model and gives back the normalized responses run:
 "./examples/normalize_example_tensor_filelist.m"  
 
 
