@@ -19,7 +19,7 @@ parameters.
 To use the code in this library, which is mainly contained in the "src"
 directory, run the following command to add the relevant paths before
 running any of your own scripts:  
->> run load_paths.m
+"run load_paths.m"
 
 
 The examples directory contains two scripts that illustrate the processes
